@@ -13,4 +13,7 @@ publish:
 package-install:
 	python3 -m pip install --user dist/hexlet_code-0.3.0*.whl
 
+lint:
+	poetry run flake8 brain_games
+
 .PHONY: version package_name
