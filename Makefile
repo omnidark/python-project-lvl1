@@ -16,4 +16,7 @@ package-install:
 lint:
 	poetry run flake8 brain_games
 
+export_dependencies:
+	poetry export -o requirements-dev.txt --dev --without-hashes
+
 .PHONY: version package_name
