@@ -1,17 +1,21 @@
+"""Start of any brain game."""
 import prompt
 
 
-def game(user_name, game, attempts_count):
+def start_game(user_name, game, attempts_count, game_message):
     """Start the even game.
 
     Args:
         user_name (str): The name of user.
+        game (func): The name of game
+        attempts_count (int): Attemts count
+        game_message (str): Game message
 
     Returns:
-        bool: The return value. False if user give wrong answer.
+        bool: Return False if user loose the game.
 
     """
-    print(game()[2])
+    print(game_message)
     while attempts_count > 0:
         game_context = game()
         print('Question: {0}'.format(game_context[0]))
