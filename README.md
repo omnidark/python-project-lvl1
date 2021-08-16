@@ -28,6 +28,14 @@ brain-even
 brain-progression
 ```
 
-### Brain even demo
+### Brain progression demo
 
 ![image info](./images/brain-progression.png)
+
+```
+brain-prime
+```
+
+### Brain prime demo
+
+![image info](./images/brain-prime.png)
