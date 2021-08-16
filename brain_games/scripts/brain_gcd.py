@@ -6,7 +6,7 @@ from brain_games.games.gcd import game_message, gcd_game
 
 
 def main():
-    """brain-even start the game."""
+    """brain-gcd start the game."""
     user_name = welcome_user()
     attempts_count = 3
     start_game(user_name, gcd_game, attempts_count, game_message)
